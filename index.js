@@ -24,7 +24,8 @@ function mkfifo(path) {
         'async version called without a callback. Use "mkfifoSync"'
       );
     })();
-  const proc = spawn('mkfifo', [path, '-m', perm], { stdio: 'ignore' });
+  const proc = spawn('mkfifo', ['-m', perm, path], { stdio: 'ignore' });
+  proc.once('error', console.error);
   proc.once('exit', status => {
     exists(path, success => {
       if (status !== 0 || !success) {
