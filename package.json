@@ -1,6 +1,6 @@
 {
-  "name": "@atroche/named-pipe",
-  "version": "1.0.1",
+  "name": "@sixtydigits/named-pipe",
+  "version": "1.0.2",
   "description": "Linux named pipes in NodeJS (mkfifo)",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atroche/node-named-pipe.git"
+    "url": "git+https://github.com/sixtydigits/node-named-pipe.git"
   },
   "keywords": [
     "mkfifo",
@@ -22,9 +22,9 @@
   "author": "Alistair Roche (forked from Sepehr Laal)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atroche/node-named-pipe/issues"
+    "url": "https://github.com/sixtydigits/node-named-pipe/issues"
   },
-  "homepage": "https://github.com/atroche/node-named-pipe#readme",
+  "homepage": "https://github.com/sixtydigits/node-named-pipe#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
